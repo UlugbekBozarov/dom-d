@@ -1,0 +1,23 @@
+#new-body {
+    background-color: #1D1A14 !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#new-body h3 {
+    text-align: center;
+}
+
+#new-body h5 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #new-body h3 {
+        text-align: start;
+    }
+    #new-body h5 {
+        text-align: start;
+    }
+}

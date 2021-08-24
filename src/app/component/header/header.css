@@ -1,0 +1,76 @@
+#header {
+    /* background-image: url('../images/home.png'); */
+    min-height: calc(100vh - 120px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-d {
+    width: 100%;
+    min-height: 70px;
+    white-space: pre-wrap;
+    line-height: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.71);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0, 0 0 0 !important;
+    box-shadow: inset 0 0 0, 0 0 0 !important;
+}
+
+.btn-d:hover {
+    background: #DDA046;
+    opacity: 0.7;
+    
+}
+
+.block-12 {
+    max-width: 300px;
+    height: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+}
+
+.d-title {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.d-text {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* text-align: center; */
+}
+
+.d_text-2 {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .d_text {
+        text-align: start;
+        display: flex;
+        /* justify-content: start; */
+    }
+    .d_text-2 {
+        font-size: 16px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 992px) {
+    .d-text {
+        font-size: 42px;
+    }
+    .d_text-2 {
+        font-size: 16px;
+        text-align: start;
+    }
+}

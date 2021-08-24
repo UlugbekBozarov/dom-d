@@ -1,0 +1,81 @@
+.js6-cart {
+    position: relative;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.js6-cart-sm {
+    position: relative;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.js6-icon {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.js6-img-text {
+    position: relative;
+    padding: 0;
+}
+
+.js6-text {
+    position: absolute;
+    width: 90%;
+    padding: 20px;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/* Js 7 */
+
+
+
+
+
+/* Js8 */
+
+.js8-title {
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
+    .js8-title {
+        font-size: 48px;
+    }
+}
+
+
+/* Js9 */
+
+#js9 {
+    /* background-image: url('../images/contact_fon.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.js9-cart {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.js6-cart textarea {
+    background-color: rgba(255, 255, 255, 0.33) !important;
+    box-shadow: inset 1px 1px 12px rgba(0, 0, 0, 0.19);
+}
+
+.js6-cart input {
+    background-color: rgba(255, 255, 255, 0.33) !important;
+    box-shadow: inset 1px 1px 12px rgba(0, 0, 0, 0.19);
+}

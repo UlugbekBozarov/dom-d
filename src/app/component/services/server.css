@@ -1,0 +1,44 @@
+.server-block {
+    background-color: white;
+    position: relative;
+    padding-top: 30px;
+}
+
+.server-block:hover {
+    box-shadow: 0px 0px 40px -10px gray;
+    background-color: #DDA046;
+}
+
+.server_circle {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #DDA046;
+}
+
+#server-button {
+    height: 40px;
+    font-size: 10px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    box-shadow: 0px 0px 48px rgba(240, 192, 92, 0.54);
+}
+
+.server-block:hover #server-button {
+    background: linear-gradient(180deg, white 0%, white 25%, white 84.9%, white 100%);
+    box-shadow: 0px 0px 48px rgba(240, 240, 240, 0.54);
+}
+
+.server-block:hover .server_circle {
+    background-color: white;
+}
+
+.collaple-prev-next {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #DDA046;
+}

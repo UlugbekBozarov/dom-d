@@ -1,0 +1,75 @@
+#left-sidebar {
+    width: 360px;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(16px);
+    top: 0;
+    left: -360px;
+    transition: all 0.2s linear;
+    z-index: 99999;
+}
+
+#sidebar-header {
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* background-color: blue; */
+}
+
+@media (min-width: 768px) {
+    #left-sidebar {
+        width: 500px;
+        left: -500px;
+    }
+
+    #sidebar-header {
+        height: 150px;
+    }
+}
+
+#left-sidebar.open {
+    left: 0;
+}
+
+#sidebar-header .icon-x {
+    font-size: 40px;
+    color: black;
+    border: 0;
+    background-color: transparent !important;
+    -webkit-box-shadow: inset 0 0 0, 0 0 0 !important;
+    box-shadow: inset 0 0 0, 0 0 0 !important;
+}
+
+.nav-sidebar {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font: 'Roboto';
+    font-weight: 500;
+}
+
+.in-nav li a {
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.in-nav li a::before {
+    content: " - ";
+}
+
+.in-nav li a.active {
+    color: rgb(223, 173, 100) !important;
+    content: " - ";
+}
+
+.in-nav li a:hover {
+    color: rgb(220, 220, 220);
+    /* background-color: blue; */
+}

@@ -1,0 +1,15 @@
+#footer li a {
+    /* font-family: 'Roboto'; */
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: white;
+}
+
+#footer li a::before {
+    content: " - ";
+}
+
+#footer li a:hover {
+    color: rgb(223, 173, 100) !important;
+}
